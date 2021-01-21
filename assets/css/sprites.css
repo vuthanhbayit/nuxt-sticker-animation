@@ -1,0 +1,7 @@
+.sticker { display:inline-block; background-image: url('~assets/sprites.png'); background-size:233px 233px; background-position: 0px 0px; width: 114px; height: 114px; animation-name: sticker;animation-duration: 0.8s;animation-iteration-count: infinite;animation-fill-mode: both;animation-timing-function: step-start;}
+@keyframes sticker {
+ 0% { background-position: 0px 0px; }
+ 33.333333333333336% { background-position: -119px 0px; }
+ 66.66666666666667% { background-position: 0px -119px; }
+ 100% { background-position: -119px -119px; } 
+}
